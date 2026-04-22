@@ -2,9 +2,6 @@
 
 A machine learning web app that predicts Formula 1 podium finishes using a Random Forest Classifier trained on 70+ years of F1 race data.
 
-## 🚀 Live Demo
-
-Deploy instantly on [Streamlit Cloud](https://share.streamlit.io)
 
 ## 📁 Project Structure
 
@@ -21,29 +18,6 @@ f1_app/
 ├── constructors.csv
 └── circuits.csv
 ```
-
-## 🏃 Run Locally
-
-```bash
-# 1. Install dependencies
-pip install -r requirements.txt
-
-# 2. (Optional) Add Kaggle F1 CSVs to the same folder
-#    Dataset: https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020
-
-# 3. Run the app
-streamlit run app.py
-```
-
-App opens at → http://localhost:8501
-
-## ☁️ Deploy on Streamlit Cloud (Free)
-
-1. Push this folder to a GitHub repo
-2. Go to https://share.streamlit.io
-3. Click **New app**
-4. Select your repo → `app.py` as the main file
-5. Click **Deploy** — done in ~2 minutes!
 
 ## 🤖 Two Modes
 
