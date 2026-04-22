@@ -1,4 +1,4 @@
-# 🏎️ F1 Podium Predictor
+# F1 Podium Predictor
 
 A machine learning web app that predicts Formula 1 podium finishes using a Random Forest Classifier trained on 70+ years of F1 race data.
 
@@ -19,14 +19,14 @@ f1_app/
 └── circuits.csv
 ```
 
-## 🤖 Two Modes
+## Two Modes
 
 | Mode | How | Description |
 |------|-----|-------------|
 | **Real data** | Add the 5 Kaggle CSVs | Trains on actual F1 history (1950-2023) |
 | **Demo mode** | No CSVs needed | Uses synthetic data for demonstration |
 
-## 📊 Features
+## Features
 
 - Select driver, constructor, circuit, grid position, and year
 - Instant podium probability prediction
@@ -34,7 +34,7 @@ f1_app/
 - Feature importance visualization
 - Model configuration panel
 
-## 🧠 Model
+## Model
 
 - **Algorithm**: Random Forest Classifier (scikit-learn)
 - **Trees**: 100 estimators
@@ -42,7 +42,7 @@ f1_app/
 - **Class weight**: Balanced (handles ~12% podium class imbalance)
 - **Features**: Grid position, year, front_row flag, laps_ratio, driver, constructor, circuit
 
-## 📚 Dataset
+## Dataset
 
 Formula 1 World Championship (1950-2023)  
 Source: https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020  
